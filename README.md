@@ -2,9 +2,6 @@
 
 **Proactive liquidation detection and settlement infrastructure for tokenized real-world asset positions in Morpho lending markets.**
 
-Built on Chronicle Protocol's Proof of Assets (PoA) oracle architecture.  
-Inspired by RedStone Settle's auction-based liquidation model.
-
 ---
 
 ## Architecture
@@ -127,5 +124,4 @@ Chronicle Agent Network attestation pipeline:
 3. The aggregated attested value is the next "poke" to the on-chain oracle
 4. This value feeds directly into Module 4 for real-time liquidation detection
 
-The settlement payload output is designed to be consumed by an Auctioneer
-module (analogous to RedStone Settle) that broadcasts to KYC-verified solvers.
+The settlement payload output is designed to be consumed by an Auctioneer. 
